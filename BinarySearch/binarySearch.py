@@ -17,4 +17,4 @@ def BinarySearch(nums, target):
 
 arr = [1,3,5,7,9,11,14]
 
-print(BinarySearch(arr, 14))
+print(BinarySearch(arr, 9))

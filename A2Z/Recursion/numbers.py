@@ -7,6 +7,17 @@ def numbers():
     count += 1
     numbers()
 
-if __name__ == "__main__":
 
-    numbers()
+
+
+    # print linearly from 1 to N
+def sequence(i, n):
+     
+    if i > n:
+        return
+    print(i)
+    sequence(i + 1, n)
+
+if __name__ == "__main__":
+    n = int(input())
+    sequence(1, n)

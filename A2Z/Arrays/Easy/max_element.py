@@ -7,9 +7,9 @@ def max_element(nums):
 
     # return maxi
 
-    hash_map = { i:0 for i in range(maxi + 1)}
+    hash_map = {}
     for i in nums:
-        hash_map[i] += 1
+        hash_map[i] = hash_map.get(i, 0) + 1
 
 
     for i in nums:
